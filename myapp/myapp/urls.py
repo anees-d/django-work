@@ -9,6 +9,7 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),      # Contact page
     path('careers/', views.careers, name='careers'),      # Careers page
     path('help/', views.help, name='help'),      # Careers page
+    path('learning/', views.learning, name='learning'),      # Learning page
     path('careers/frontend-developer/', views.frontend_developer, name='frontend_developer'), # front end
     path('careers/backend-developer/', views.backend_developer, name='backend_developer'), # back end
     path('careers/ui-ux-designer/', views.ui_ux_designer, name='ui_ux_designer'), # Ui design

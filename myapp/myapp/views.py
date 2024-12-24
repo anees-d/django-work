@@ -26,6 +26,11 @@ def careers(request):
 def help(request):
     return render(request, 'help.html')
 
+# Learning page
+
+def learning(request):
+    return render(request, 'learning.html')
+
 # front end
 
 def frontend_developer(request):
@@ -46,4 +51,7 @@ def ui_ux_designer(request):
 
 def project_manager(request):
     return render(request, 'project_manager.html')
+
+
+
 
